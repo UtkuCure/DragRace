@@ -1,5 +1,5 @@
-# Created by https://www.toptal.com/developers/gitignore/api/unity,csharp,dotenv,dotnetcore
-# Edit at https://www.toptal.com/developers/gitignore?templates=unity,csharp,dotenv,dotnetcore
+# Created by https://www.toptal.com/developers/gitignore/api/unity,csharp,visualstudiocode,dotnetcore,dotenv
+# Edit at https://www.toptal.com/developers/gitignore?templates=unity,csharp,visualstudiocode,dotnetcore,dotenv
 
 ### Csharp ###
 ## Ignore Visual Studio temporary files, build results, and
@@ -475,4 +475,17 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 
-# End of https://www.toptal.com/developers/gitignore/api/unity,csharp,dotenv,dotnetcore
+### VisualStudioCode ###
+!.vscode/*.code-snippets
+
+# Local History for Visual Studio Code
+
+# Built Visual Studio Code Extensions
+*.vsix
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+.ionide
+
+# End of https://www.toptal.com/developers/gitignore/api/unity,csharp,visualstudiocode,dotnetcore,dotenv
